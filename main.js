@@ -27,7 +27,7 @@ function getPagamenti() {
 }
 
 
-removePagante() {
+function removePagante() {
   const thisParent = $(this).parent();
   const dataId = thisParent.data("id");
 
